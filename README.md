@@ -10,7 +10,7 @@
 * Rotate about the vertical axis.（Assume it is the y-axis.）
 * Take-off and landing 
 
-### Scene:
+### Basic Scene:
 * Some tall building (colorful cubes, cylinders, spheres) and a wide ground in the scene
 <img src="README_IMG/Scene.png" width="50%"/>
 
