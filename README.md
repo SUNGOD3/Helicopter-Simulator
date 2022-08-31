@@ -1,7 +1,7 @@
 # Helicopter Simulator
  A helicopter model made with basic techniques of computer graphics.
 
-## Implemented features:
+## Implemented features
 
 ### The helicopter could be able to:
 * Move vertically (up and down)
@@ -42,7 +42,7 @@
  
  <img src="README_IMG/SpotLight.png" width="25%"><img src="README_IMG/LightIntensity.png" width="25%"><img src="README_IMG/RangeOfLight.png" width="25%">
 
-### TextureMapping:
+### Texture Mapping:
 * Contain at least 3 types of texture maps
 * Use billboards to draw complex objects (No matter how you move the camera, the texture always faces the player)
   <img src="README_IMG/Billboard.png" width="100%">
@@ -63,7 +63,7 @@
   
   ![GITHUB]( https://github.com/SUNGOD3/Helicopter-Simulator/blob/main/README_IMG/Read%20Failed.png )
   
-## How to play?:
+## How to play?
 
 ### Control instructions: 
 * 'w'/'a'/'s'/'d' go forward/backward/left/right 
@@ -71,7 +71,7 @@
 * 'j'/'k' go up/down
 * 'i'/'u' turn right/left
 * 'o'/'l' left/right to fly
-### Viewing Angle Switching: 
+### Viewing angle switching: 
 * '0'/'1'/'2'/'3'/'4' Display All (the other four) / Ortho X-axis / Ortho Y-axis / Ortho Z-axis / Perspective projection
 * 'U'/'D' lens up/down, 'L'/'R' view left/right, 'I'/'O' view forward/back, 'P'/'H'/'r' pitching/heading/rolling
 * ']' Displays the viewing angle range
@@ -83,7 +83,11 @@
 ### Material/fog switch: 
 * 'f' switch fog mode (0/1/2/3 no fog/LINER/EXP/EXP2), 'C' material screenshot
 
-## Draft of the helicopter:
+## Draft of the helicopter
 
 <img src="README_IMG/draft.png" width="50%">
 Design according to the concept of local coordinate system (LCS)
+
+## Technical reference
+* Computer graphics teaching materials of NTOU
+* Part of the sample code of S.K. Ueng
