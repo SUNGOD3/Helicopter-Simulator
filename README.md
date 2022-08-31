@@ -13,7 +13,9 @@
 
 * And you have to make your project readable to "sky.bmp" 
 
-  If this step fails, the following screen will appear:
+  If this step fails, the following screen will appear: 
+  
+  ![GITHUB]( https://github.com/SUNGOD3/Helicopter-Simulator/blob/main/README_IMG/Read%20Failed.png )
 
 ## How to play?:
 
@@ -34,4 +36,8 @@
 * '*'/'‘'/'’' increase/decrease specular index, 'c' switch emission light color (R/G/B/normal light), 'x' switch shadow mode (Smooth/Flat)
 ### Material/fog switch: 
 * 'f' switch fog mode (0/1/2/3 no fog/LINER/EXP/EXP2), 'C' material screenshot.
+
+## Draft of the helicopter:
+
+
 
