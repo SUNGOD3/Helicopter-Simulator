@@ -39,5 +39,5 @@
 
 ## Draft of the helicopter:
 
-
+<img src="README_IMG/draft.png" width="50%"/>
 
