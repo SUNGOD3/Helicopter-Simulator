@@ -1,4 +1,4 @@
-# Helicopter
+# Helicopter Simulator
  A helicopter model made with basic techniques of computer graphics.
 
 ## Implemented features:
