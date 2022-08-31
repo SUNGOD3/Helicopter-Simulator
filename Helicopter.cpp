@@ -527,6 +527,8 @@ unsigned char* loadBMPRaw(const char* imagepath, unsigned int& outWidth, unsigne
     if (*(int*)&(header[0x1E]) != 0) { printf("Not a correct BMP file\n");    return NULL; }
     if (*(int*)&(header[0x1C]) != 24) { printf("Not a correct BMP file\n");    return NULL; }
 
+    printf("Read successfully!\n");
+
     // Read the information about the image
     dataPos = *(int*)&(header[0x0A]);
     imageSize = *(int*)&(header[0x22]);
@@ -1740,7 +1742,7 @@ void main(int argc, char** argv)
     /*-----Depth buffer is used, be careful !!!----*/
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
     glutInitWindowSize(width, height);
-    glutCreateWindow("™Ω§…æ˜");
+    glutCreateWindow("Áõ¥ÂçáÊ©ü");
 
     myinit();      /*---Initialize other state varibales----*/
 
