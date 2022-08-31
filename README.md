@@ -45,11 +45,11 @@
 ### TextureMapping:
 * Contain at least 3 types of texture maps
 * Use billboards to draw complex objects (No matter how you move the camera, the texture always faces the player)
-  <img src="README_IMG/Billboard.png" width="50%">
+  <img src="README_IMG/Billboard.png" width="100%">
 * A sky dome (sky.bmp)
 * Foggy effect + being able to change the fog color, mode, and opacity
 * Screenshot function (The image captured by the player will be pasted as a texture map on the middle column)
-  <img src="README_IMG/Screenshot.png" width="50%">
+  <img src="README_IMG/Screenshot.png" width="100%">
 
 ## How to execute "Helicopter.cpp"?
 
