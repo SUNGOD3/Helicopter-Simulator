@@ -4,10 +4,10 @@
 ## Implemented features:
 
 ### The helicopter could be able to:
-* Move vertically. (up and down)
-* Fly forward and backward.
-* Make a turn.
-* Rotate about the vertical axis.（Assume it is the y-axis.）
+* Move vertically (up and down)
+* Fly forward and backward
+* Make a turn
+* Rotate about the vertical axis（Assume it is the y-axis）
 * Take-off and landing 
 * Control the movements by using keyboard events
 
@@ -16,7 +16,7 @@
 
   <img src="README_IMG/Scene.png" width="50%">
 ### Viewing & Projection:
-* Allow users to translate and rotate the camera position, focus, and view up vector (surge, heave, sway, roll, yaw, and pitchmotions.)
+* Allow users to translate and rotate the camera position, focus, and view up vector (surge, heave, sway, roll, yaw, and pitchmotions)
 * 5 projection methods:
 
    * Method 1: Orthographical projection along x-axis
@@ -38,11 +38,18 @@
 * Shade the scene by using the smooth shading method
 * Being able to change direction/color/intensity/enable of these light sources
 
- <img src="README_IMG/Emission.png" width="50%"><img src="README_IMG/Light.png" width="50%">
+ <img src="README_IMG/Emission.png" width="25%"><img src="README_IMG/Light.png" width="25%"><img src="README_IMG/PointLight.png" width="25%">
  
- <img src="README_IMG/PointLight.png" width="50%"><img src="README_IMG/SpotLight.png" width="50%">
- 
- <img src="README_IMG/LightIntensity.png" width="50%"><img src="README_IMG/RangeOfLight.png" width="50%">
+ <img src="README_IMG/SpotLight.png" width="25%"><img src="README_IMG/LightIntensity.png" width="25%"><img src="README_IMG/RangeOfLight.png" width="25%">
+
+### TextureMapping:
+* Contain at least 3 types of texture maps
+* Use billboards to draw complex objects (No matter how you move the camera, the texture always faces the player)
+  <img src="README_IMG/Billboard.png" width="50%">
+* A sky dome (sky.bmp)
+* Foggy effect + being able to change the fog color, mode, and opacity
+* Screenshot function (The image captured by the player will be pasted as a texture map on the middle column)
+  <img src="README_IMG/Screenshot.png" width="50%">
 
 ## How to execute "Helicopter.cpp"?
 
@@ -55,7 +62,7 @@
   If this step fails, the following screen will appear: 
   
   ![GITHUB]( https://github.com/SUNGOD3/Helicopter-Simulator/blob/main/README_IMG/Read%20Failed.png )
-
+  
 ## How to play?:
 
 ### Control instructions: 
@@ -67,14 +74,14 @@
 ### Viewing Angle Switching: 
 * '0'/'1'/'2'/'3'/'4' Display All (the other four) / Ortho X-axis / Ortho Y-axis / Ortho Z-axis / Perspective projection
 * 'U'/'D' lens up/down, 'L'/'R' view left/right, 'I'/'O' view forward/back, 'P'/'H'/'r' pitching/heading/rolling
-* ']' Displays the viewing angle range.
+* ']' Displays the viewing angle range
 ### Light and shadow switching: 
 * '!' Switch light mode (sunlight/single-point movable light source (small golden ball)/helicopter flashlight)
 * '@' Turn on/off all light sources, '#' switch the light color (R/G/B/normal light), 'space' move the small golden ball (circle)
 * '$' Move the torch (down/a bit forward/forward), '[' show torch range, '+'/'-' increase/decrease light intensity
 * '*'/'‘'/'’' increase/decrease specular index, 'c' switch emission light color (R/G/B/normal light), 'x' switch shadow mode (Smooth/Flat)
 ### Material/fog switch: 
-* 'f' switch fog mode (0/1/2/3 no fog/LINER/EXP/EXP2), 'C' material screenshot.
+* 'f' switch fog mode (0/1/2/3 no fog/LINER/EXP/EXP2), 'C' material screenshot
 
 ## Draft of the helicopter:
 
