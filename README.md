@@ -23,8 +23,10 @@
    * Method 3: Orthographical projection along z-axis
    * Method 4: Perspective projection
    * Method 5: Divide the window into 4 view-ports, Method 1-3 and Method 4 (As shown below)
+
  <img src="README_IMG/Method5.png" width="50%">
- 
+(In the middle of each scene is the origin and 3 axes of world coordinate system (WCS))
+
 ## How to execute "Helicopter.cpp"?
 
 * You must import the following 4 header files:
