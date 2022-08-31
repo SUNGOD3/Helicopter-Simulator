@@ -23,8 +23,8 @@
   * Method 3: Orthographical projection along z-axis
   * Method 4: Perspective projection
   * Method 5: Divide the window into 4 view-ports, 3 view-ports for displaying the orthographical projection images and 1 for viewing the perspective projection image
+(As shown below)
 <img src="README_IMG/Method5.png" width="50%"/>
-(Method5)
 
 ## How to execute "Helicopter.cpp"?
 
