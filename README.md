@@ -3,7 +3,16 @@
 
 ## Implemented features:
 
-* 
+### The helicopter could be able to:
+* Move vertically. (up and down)
+* Fly forward and backward.
+* Make a turn.
+* Rotate about the vertical axis.（Assume it is the y-axis.）
+* Take-off and landing 
+
+### Scene:
+* Some tall building (colorful cubes, cylinders, spheres) and a wide ground in the scene
+<img src="README_IMG/Scene.png" width="50%"/>
 
 ## How to execute "Helicopter.cpp"?
 
@@ -40,4 +49,4 @@
 ## Draft of the helicopter:
 
 <img src="README_IMG/draft.png" width="50%"/>
-
+Design according to the concept of local coordinate system (LCS)
