@@ -15,9 +15,10 @@
 * Some tall building (colorful cubes, cylinders, spheres) and a wide ground in the scene
 
   <img src="README_IMG/Scene.png" width="50%">
-### Viewing and Projection:
+### Viewing & Projection:
 * Allow users to translate and rotate the camera position, focus, and view up vector (surge, heave, sway, roll, yaw, and pitchmotions.)
 * 5 projection methods:
+
    * Method 1: Orthographical projection along x-axis
    * Method 2: Orthographical projection along y-axis
    * Method 3: Orthographical projection along z-axis
@@ -26,6 +27,22 @@
 
  <img src="README_IMG/Method5.png" width="50%">
 (In the middle of each scene is the origin and 3 axes of world coordinate system (WCS))
+
+### Lighting & Shading:
+* Contain at least 3 light sources:
+
+   * A directional light from the sun or other sources
+   * A point light located at a fixed position in the scene (higher than any obstacle)
+   * A spot light attached to your helicopter (also shows the range of light)
+* Assign different material properties to object surfaces so that their appearances look like metallic, plastic, and diffuse surfaces
+* Shade the scene by using the smooth shading method
+* Being able to change direction/color/intensity/enable of these light sources
+
+ <img src="README_IMG/Emission.png" width="50%"><img src="README_IMG/Light.png" width="50%">
+ 
+ <img src="README_IMG/PointLight.png" width="50%"><img src="README_IMG/SpotLight.png" width="50%">
+ 
+ <img src="README_IMG/LightIntensity.png" width="50%"><img src="README_IMG/RangeOfLight.png" width="50%">
 
 ## How to execute "Helicopter.cpp"?
 
